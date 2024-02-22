@@ -13,4 +13,3 @@ if storage_t == 'db':
 else:
     storage = FileStorage()
     storage.reload()
-

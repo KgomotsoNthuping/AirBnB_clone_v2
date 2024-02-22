@@ -24,4 +24,3 @@ class Review(BaseModel, Base):
         String(1024),
         nullable=False
     ) if os.getenv('HBNB_TYPE_STORAGE') == 'db' else ''
-
