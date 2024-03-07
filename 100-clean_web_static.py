@@ -9,7 +9,7 @@ from fabric.api import run
 from fabric.api import runs_once
 
 
-env.hosts = ['18.209.180.135', '54.165.237.14']
+env.hosts = ['54.174.234.210', '35.175.135.236']
 
 
 @runs_once
